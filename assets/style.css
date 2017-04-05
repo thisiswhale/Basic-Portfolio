@@ -1,0 +1,129 @@
+*{
+	font-family: Arial,"Times New Roman";
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+body{
+  padding: 20px;
+  margin: 0 15%;
+}
+
+header{
+
+}
+
+.class{
+	float:right;
+	width:300px;
+	height:300px;
+}
+
+/* White background color to top navigation*/
+.topnav{
+	background-color:#333333;
+	overflow:hidden;
+	border-bottom: 5px solid #564f4f;
+}
+
+/*style the links inside the navigation bar*/
+.topnav a{
+	float:right;
+	display:block;
+	color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#nameTopnav{
+	float:left;
+	color:#f2f2f2;
+	width: 250px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #4b6df4;
+}
+
+.myself {
+	width:500px;
+	height: 600px;
+	background-color: beige;
+	padding:10px;
+	position: relative;
+	border: 3px solid gray;
+}
+
+.myself h1{
+	color: teal;
+	font-size: 25px;
+}
+
+
+
+.myself img{
+	float:left;
+	padding:15px;
+	border: 2px;
+}
+
+.connect {
+	position:absolute;
+	height:200px;
+	width:200px;
+	left:120%;
+	bottom:50%;
+
+}
+
+
+/*~~~~~~~~Contact.html*/
+label{
+	display:block;
+	margin-top:20px;
+	letter-spacing:2px;
+}
+
+/* Centre the page */
+.bodyContact{
+	display:block;
+	margin:0 10%;
+	width:576px;
+	border:2px;
+}
+
+/*centre the form within the page*/
+form{
+	float:left;
+	margin:0 auto;
+	width:459px;
+
+}
+
+/*style the text boxes*/
+input, textarea{
+	width:440px;
+	height:27px;
+	background:#efefef;
+	border:1px solid: #dedede;
+	padding:1px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+}
+
+#submit {
+    width:100px;
+    height:38px;
+    margin-top:20px;
+    cursor:pointer;
+    color:white;
+    background-color: teal;
+    border-style:hidden;
+}
