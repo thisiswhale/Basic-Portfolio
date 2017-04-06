@@ -1,11 +1,12 @@
 *{
-	font-family: Arial,"Times New Roman";
+	font-family: 'Palanquin Dark', sans-serif;
   	box-sizing: border-box;
   	font-size: 17px;
 }
 
 body{
 	background-image: url("seigaiha.png");
+	width: 960px;
   	margin: 0 15%;
 }
 h1{
@@ -80,11 +81,16 @@ footer{
 	padding: 15px;
 }
 /*About me Box*/
+
+#mePic{
+	width:200px;
+	height:200px;
+}
 .myself {	
 	position: absolute;
 	float:left;
-	height: 550px;
-	width: 600px;
+	height: 575px;
+	width: 650px;
 
 }
 
@@ -99,20 +105,28 @@ footer{
 	position:absolute;
 	left:700px;
 	height:200px;
-	width:300px;
+	width: 270px;
 	letter-spacing:2px;
 	text-align: center;
 	padding-right:20px;
-	border: 2px solid gray;
+	border: 2px solid #333333;
+}
+
+.connect img{
+	position:relative;
 }
 
 .connect h2{
 	color: #011135;
 	font-size:22px;
-	border-bottom: 2px solid gray;
+	border-bottom: 2px solid #333333;
 }
 
-
+#iconLogo{
+	height: 70px; 
+	width: 70px; 
+	padding: 5px;
+}
 
 /*~~~~~~~~Portfolio Page~~~~~~~~~~~~~*/
 .portfolio{
@@ -123,21 +137,62 @@ footer{
 }
 
 .image{
+	height:200px;
+	width:200px;
+	padding:25px;
+
+}
+.image img{
 	position: relative;
 	height:200px;
 	width:200px;
+
 }
 
-.image p{
+.appTitle{
 	position: relative;
+	left:10px;
+	height:30px;
+	width:200px;
+	top:155px;
+	text-align: center;
+	padding-bottom: 5px;
+	color:beige;
+	background-color: #333333;
+	font-size:20px;
+	z-index: 1;
+	text-decoration:none; 
+
 }
 
+#A{
+	position: relative;
+	bottom:40px;
+	float:left;
+	margin:10px;
+}
+#B{
+	position: relative;
+	bottom:40px;
+	float:left;
+	clear:right;
+	margin:10px;
+}
+#C{
+	position: relative;
+	bottom:40px;
+	float:left;
+	margin:10px;
+}
+#D{
+	position: relative;
+	bottom:40px;
+	float:left;
+	clear:right;
+	margin:10px;
+}
 
-/*	text-align: center;
-	color:beige;
-	background-color:gray; */
-
-
+/*Make images round borders*/
 .project{
 	height:200px;
 	width:200px;
