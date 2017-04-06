@@ -1,25 +1,46 @@
 *{
 	font-family: Arial,"Times New Roman";
-  box-sizing: border-box;
-  font-size: 17px;
+  	box-sizing: border-box;
+  	font-size: 17px;
 }
 
 body{
-  padding: 20px;
-  margin: 0 15%;
+	background-image: url("seigaiha.png");
+  	margin: 0 15%;
+}
+h1{
+	color: #011135;
+	font-size: 25px;
+	border-bottom: 2px solid gray;
+}
+
+html,body{
+  padding:0;
 }
 
 header{
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+}
+
+footer{
+	position: absolute;
+	bottom:0;
+	right:0;
+	left:0;
+	height:50px;
+	text-align: center;
+	background-color:#333333;
+	border-top: 5px solid #564f4f;
+	color:beige;
 
 }
 
-.class{
-	float:right;
-	width:300px;
-	height:300px;
-}
+/*~~~~~~~~~~Index Page~~~~~~~~~~~~~~*/
 
-/* White background color to top navigation*/
+/* black background color to top navigation*/
 .topnav{
 	background-color:#333333;
 	overflow:hidden;
@@ -30,64 +51,120 @@ header{
 .topnav a{
 	float:right;
 	display:block;
-	color: white;
+	color: beige;
     text-align: center;
     padding: 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 #nameTopnav{
 	float:left;
 	color:#f2f2f2;
-	width: 250px;
+	width: 270px;
+	margin-left:200px;
     text-align: center;
     padding: 20px;
     text-decoration: none;
     font-size: 25px;
-    background-color: #4b6df4;
+    background-color: #011135;
 }
 
-.myself {
-	width:500px;
-	height: 600px;
+.parent{
+	position:absolute;
+	margin-top:80px;
+}
+
+#box{
 	background-color: beige;
-	padding:10px;
-	position: relative;
-	border: 3px solid gray;
+	border: 1px solid gray;
+	padding: 15px;
 }
+/*About me Box*/
+.myself {	
+	position: absolute;
+	float:left;
+	height: 550px;
+	width: 600px;
 
-.myself h1{
-	color: teal;
-	font-size: 25px;
 }
-
-
 
 .myself img{
 	float:left;
-	padding:15px;
-	border: 2px;
+	padding:10px;
+
 }
 
+/*Connect with me Box*/
 .connect {
 	position:absolute;
+	left:700px;
 	height:200px;
-	width:200px;
-	left:120%;
-	bottom:50%;
+	width:300px;
+	letter-spacing:2px;
+	text-align: center;
+	padding-right:20px;
+	border: 2px solid gray;
+}
 
+.connect h2{
+	color: #011135;
+	font-size:22px;
+	border-bottom: 2px solid gray;
 }
 
 
-/*~~~~~~~~Contact.html*/
+
+/*~~~~~~~~Portfolio Page~~~~~~~~~~~~~*/
+.portfolio{
+	float:left;
+	position: absolute;
+	height:550px;
+	width:600px;
+}
+
+.image{
+	position: relative;
+	height:200px;
+	width:200px;
+}
+
+.image p{
+	position: relative;
+}
+
+
+/*	text-align: center;
+	color:beige;
+	background-color:gray; */
+
+
+.project{
+	height:200px;
+	width:200px;
+	border: 1px solid gray;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin: 20px;
+}
+
+
+/*~~~~~~~~Contact Page~~~~~~~~~~~~~~~*/
 label{
 	display:block;
 	margin-top:20px;
 	letter-spacing:2px;
 }
 
-/* Centre the page */
+.contactBox {
+	float:left;
+	position: absolute;
+	height:550px;
+	width:600px;
+}
+
 .bodyContact{
+	position:absolute;
 	display:block;
 	margin:0 10%;
 	width:576px;
@@ -124,6 +201,7 @@ textarea {
     margin-top:20px;
     cursor:pointer;
     color:white;
-    background-color: teal;
+    background-color: #011135;
     border-style:hidden;
 }
+
